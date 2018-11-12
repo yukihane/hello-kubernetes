@@ -8,7 +8,7 @@ spec:
     image: gihyodocker/nginx-proxy:latest
     env:
     - name: BACKEND_HOST
-      value: loalhost:8080
+      value: localhost:8080
     ports:
     - containerPort: 80
   - name: echo
